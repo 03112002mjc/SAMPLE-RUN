@@ -812,8 +812,8 @@ nav .fa-solid{
         margin: 0;
         position: relative;
         display:inline-block;
-        top:150px;
-        left:50px;
+        top:100px;
+        
         
     }
 
@@ -862,7 +862,7 @@ nav .fa-solid{
         text-align: center;
         position: relative;
         background: rgba(255, 255, 255, 0.5);
-        bottom: -40px;
+        bottom: -10px;
         left: 0px;
         border-radius: 15px;
         
@@ -878,6 +878,7 @@ nav .fa-solid{
 
     .home-content h1 span {
         font-size: 30px;
+        font-weight: 800;
         font-family: 'Poppins';
     }
 
