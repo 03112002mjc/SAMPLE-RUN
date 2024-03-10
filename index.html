@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <title>My Portfolio Website</title>
+        <link rel="icon" type="image/jpg" href="/img/head.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="design.css">
+        <script src="https://kit.fontawesome.com/4a9d01e598.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>   
+
+    </head>
+    
+
+    <body class="no-resize">
+        <header id="header">
+            <div class="container">
+            
+                <nav class="topnav">  
+                    <a href="https://03112002mjc.github.io/PORTFOLIO/" target="_blank" title="go to Youtube" class="logo">M<span>J</span>C.Portfolio</a>
+                    
+                        <ul id="sidemenu">
+                          
+                            <li><a href="#home" style="--i:1;">Home</a></li>
+                            <li><a href="#about" style="--i:2;">About</a></li>
+                            <li><a href="#services" style="--i:3;">Services</a></li>
+                            <li><a href="#portfolio" style="--i:4;">Portfolio</a></li>
+                            <li><a href="#contact" style="--i:5;">Contact</a></li>
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>            
+                        </ul>
+                            <i class="fa-solid fa-bars" onclick="openmenu()"></i>    
+                </nav>  
+                        
+            </div><hr class="new1">
+        </header>
+        
+           
+        <section class="home" id="home">
+            <div class="home-img">
+                <div class="glowing">
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="img/gwapo.png" alt="This is my picture">
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="home-content">
+                <h1>Hi, I'm <span><b>Marc Joseph</b></span> Cagalitan</h1><br>
+                <h3>Computer Technologist</h3>
+                <p>CITE: We do Ordinary Things, extra-ordinarily well!</p>
+                     
+                <div class="home-sci">
+                    <a href="https://www.facebook.com/" target="_blank" title="facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" title="linkIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/" target="_blank" title="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+           
+                
+                    <button onclick="location.href='docs/RESUME_CAGALITAN.pdf';" class="btn1">Download CV</button>
+                    
+            </div><br>
+       
+            
+        </section>
+        
+    
+      <!-----------------------------------------------------about------------------------------------------------------>
+        <section class="ABOUT">
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="about-col-1">
+                            <img src="img/cagalitan.jpg" alt="This is my Picture">
+                        </div>
+
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1><br>
+                            <p>Hey! I'm Marc Joseph Cagalitan, a passionate student studying Computer Engineering Technology at Center for Industrial Technology and Enterprise. I love diving into the field of Computer Engineering and exploring its endless possibilities. Whether it's solving problems or crafting projects, I'm always eager to learn and grow. <br><br>
+
+                                Beyond academics, I enjoy playing basketball and also i love playing music. I believe in a balanced approach to life, where learning goes hand in hand with experiences outside the classroom.
+                                
+                                My goal? To make an impact in this field and inspire others along the way. Thanks for checking out my portfolio, I'm excited to connect and explore new opportunities together!</p>
+                                    
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>COMPUTER ENGINEER</span><br>Hardware and Sofware application</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Creating applications on Andriod/IOS</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>COMPUTER ENGINEER</span><br>Hardware and Sofware application</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Creating applications on Andriod/IOS</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Elementary School</span><br>Limokon Elementary School</li>
+                                    <li><span>High School</span><br>Dimiao National HighSchool(General Academic Strand)</li>
+                                    <li><span>College</span><br>CITE Technical Institute, Inc.(Computer Engineering Technology)</li>
+                                </ul>
+                            </div>
+                                
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><hr class="new2">
+
+       <!----------------------------------------------------------------Portfolio--------------------------------------------------------------------->
+       <div id="portfolio">
+            <div class="container">
+
+                <h1 class="sub-title" id="project">My Project</h1>
+
+                <div class="worklist">
+
+                    <div class="work">
+
+                        <img src="img/project2.png" alt="This is a Music App pic">
+
+                        <div class="layer">
+                            <h3>Login System</h3>
+                            <p>This simple login system</p>
+                            <a href="https://github.com/03112002mjc/Basic-Login-System" target="_black"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+
+                        <img src="img/project2.png" alt="This is a Music App pic">
+
+                        <div class="layer">
+                            <h3>Login System</h3>
+                            <p>This is a simple login system where the user is prompted to enter a username and password. If the entered username and password match the hardcoded values, it prints "Login successful. Welcome, username!". Otherwise, it prints "Invalid username or password. Please try again."</p>
+                            <a href="https://github.com/03112002mjc/Basic-Login-System" target="_black"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        
+                        <img src="img/project1.png" alt="This is a Shopping App pic">
+
+                        <div class="layer">
+                            <h3>School Evaluation System</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Quaerat nulla iusto, in a, dolore asperiores alias officiis
+                                  inventore earum dicta pariatur, eaque tenetur cupiditate natus
+                                   dolorum nihil consequatur ratione nam.</p>
+                            <a href="https://github.com/03112002mjc/School-Evaluation-System" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                
+                </div>
+                    <a href="https://github.com/03112002mjc?tab=repositories" target="_blank" class="btn" title="Go to Github">See more...</a>
+            </div>
+
+       </div>
+
+       <!-------------------------------------------------------------- SERVICES --------------------------------------------------------------------->
+       <div id="services">
+        <div class="container">
+
+            <h1 class="sub-title">My Services</h1><br>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit
+                        Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Software Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit
+                        Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit
+                        Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div><br><br>
+
+   </div>
+
+       <!----------------------------------------------------------------CONTACT------------------------------------------------------------------------->
+
+       <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> cagalitanmarcjoseph@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 09460104027</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i> Ma Rc</a><br>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> im_marc</a><br>
+                            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i> MjCagalitan</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email"  placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                            
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright &copy; Marc Joseph Cagalitan. Thanks for visiting my site!<i class="fa-solid fa-heart"></i></p>
+            </div>
+            
+       </div>
+
+        
+            
+        
+
+
+
+
+
+       
+    </body>
+
+</html>
