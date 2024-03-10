@@ -15,7 +15,7 @@ body{
     
     
     position: relative;
-    background-image: url(/img/rose.jpg);
+    background-image: url("img/rose.jpg");
     
     
    
@@ -189,7 +189,7 @@ nav ul li a:hover{
         position: absolute;
         width: 380px;
         height: 380px;
-        background-image: url(/img/rose3.avif);
+        background-image: url("img/rose3.avif");
         background-size:contain;
         border-radius: 50%;
     }
@@ -806,7 +806,7 @@ nav .fa-solid{
 
     
     .home {
-        height: auto;
+        height: 100vh;
         padding: 0;
         margin: 0;
         position: relative;
