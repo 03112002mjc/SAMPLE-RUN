@@ -872,18 +872,18 @@ nav .fa-solid{
 
 
     .home-content h1 {
-        font-size: 24px; 
+        font-size: 30px; 
 
     }
 
     .home-content h1 span {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 800;
         font-family: 'Poppins';
     }
 
     .home-content h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .home-content p {
@@ -928,7 +928,7 @@ nav .fa-solid{
         color: white;
     }
     nav ul li a:hover{
-        color: #00e600;
+        color: rgb(51, 187, 255);
     }
     nav ul .fa-solid{
         position: absolute;
