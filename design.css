@@ -797,6 +797,7 @@ nav .fa-solid{
     .logo {
         font-size: 18px;
         margin-left: 0px;
+        font-family:'Poppins', sans-serif;
     }
 
 
@@ -811,7 +812,7 @@ nav .fa-solid{
         margin: 0;
         position: relative;
         display:inline-block;
-         top:100px;
+         top:200px;
     }
 
     .home-img{
@@ -859,7 +860,7 @@ nav .fa-solid{
         text-align: center;
         position: relative;
         background: rgba(255, 255, 255, 0.5);
-        bottom: 0;
+        bottom: -100px;
         left: 0px;
         border-radius: 15px;
         
