@@ -811,6 +811,7 @@ nav .fa-solid{
         margin: 0;
         position: relative;
         display:inline-block;
+         top:100px;
     }
 
     .home-img{
@@ -858,7 +859,7 @@ nav .fa-solid{
         text-align: center;
         position: relative;
         background: rgba(255, 255, 255, 0.5);
-        bottom: 10px;
+        bottom: 0;
         left: 0px;
         border-radius: 15px;
         
