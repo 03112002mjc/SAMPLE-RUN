@@ -270,7 +270,7 @@ nav ul li a:hover{
     .home-content h1 span{
         font-size: 80px;
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke: .1px rgb(4, 114, 150);
+        -webkit-text-stroke: 1px rgb(4, 114, 150);
         font-weight: 100;
         font-family: 'Poppins';
         text-shadow: none;
@@ -795,7 +795,7 @@ nav .fa-solid{
         width: 100%;
     }
     .logo {
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 0px;
         font-family:'Poppins', sans-serif;
     }
